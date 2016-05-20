@@ -15,6 +15,7 @@
 		7CA9484B1CEF2EE0005D879A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA948491CEF2EE0005D879A /* LaunchScreen.storyboard */; };
 		7CA948561CEF2EE0005D879A /* idageTimerButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA948551CEF2EE0005D879A /* idageTimerButtonTests.m */; };
 		7CA948611CEF2EE0005D879A /* idageTimerButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA948601CEF2EE0005D879A /* idageTimerButtonUITests.m */; };
+		7CA948701CEF2F34005D879A /* DGTimerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA9486F1CEF2F34005D879A /* DGTimerButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7CA9485C1CEF2EE0005D879A /* idageTimerButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idageTimerButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA948601CEF2EE0005D879A /* idageTimerButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idageTimerButtonUITests.m; sourceTree = "<group>"; };
 		7CA948621CEF2EE0005D879A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA9486E1CEF2F34005D879A /* DGTimerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGTimerButton.h; sourceTree = "<group>"; };
+		7CA9486F1CEF2F34005D879A /* DGTimerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGTimerButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		7CA9483A1CEF2EE0005D879A /* idageTimerButton */ = {
 			isa = PBXGroup;
 			children = (
+				7CA9486E1CEF2F34005D879A /* DGTimerButton.h */,
+				7CA9486F1CEF2F34005D879A /* DGTimerButton.m */,
 				7CA9483E1CEF2EE0005D879A /* AppDelegate.h */,
 				7CA9483F1CEF2EE0005D879A /* AppDelegate.m */,
 				7CA948411CEF2EE0005D879A /* ViewController.h */,
@@ -272,6 +277,7 @@
 			files = (
 				7CA948431CEF2EE0005D879A /* ViewController.m in Sources */,
 				7CA948401CEF2EE0005D879A /* AppDelegate.m in Sources */,
+				7CA948701CEF2F34005D879A /* DGTimerButton.m in Sources */,
 				7CA9483D1CEF2EE0005D879A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
