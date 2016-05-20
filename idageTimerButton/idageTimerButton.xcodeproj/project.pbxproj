@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CA9483D1CEF2EE0005D879A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA9483C1CEF2EE0005D879A /* main.m */; };
+		7CA948401CEF2EE0005D879A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA9483F1CEF2EE0005D879A /* AppDelegate.m */; };
+		7CA948431CEF2EE0005D879A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA948421CEF2EE0005D879A /* ViewController.m */; };
+		7CA948461CEF2EE0005D879A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA948441CEF2EE0005D879A /* Main.storyboard */; };
+		7CA948481CEF2EE0005D879A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA948471CEF2EE0005D879A /* Assets.xcassets */; };
+		7CA9484B1CEF2EE0005D879A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA948491CEF2EE0005D879A /* LaunchScreen.storyboard */; };
+		7CA948561CEF2EE0005D879A /* idageTimerButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA948551CEF2EE0005D879A /* idageTimerButtonTests.m */; };
+		7CA948611CEF2EE0005D879A /* idageTimerButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA948601CEF2EE0005D879A /* idageTimerButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CA948521CEF2EE0005D879A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CA948301CEF2EE0005D879A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CA948371CEF2EE0005D879A;
+			remoteInfo = idageTimerButton;
+		};
+		7CA9485D1CEF2EE0005D879A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CA948301CEF2EE0005D879A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CA948371CEF2EE0005D879A;
+			remoteInfo = idageTimerButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CA948381CEF2EE0005D879A /* idageTimerButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = idageTimerButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA9483C1CEF2EE0005D879A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CA9483E1CEF2EE0005D879A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CA9483F1CEF2EE0005D879A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CA948411CEF2EE0005D879A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CA948421CEF2EE0005D879A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CA948451CEF2EE0005D879A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CA948471CEF2EE0005D879A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CA9484A1CEF2EE0005D879A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CA9484C1CEF2EE0005D879A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA948511CEF2EE0005D879A /* idageTimerButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idageTimerButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA948551CEF2EE0005D879A /* idageTimerButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idageTimerButtonTests.m; sourceTree = "<group>"; };
+		7CA948571CEF2EE0005D879A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA9485C1CEF2EE0005D879A /* idageTimerButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idageTimerButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA948601CEF2EE0005D879A /* idageTimerButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idageTimerButtonUITests.m; sourceTree = "<group>"; };
+		7CA948621CEF2EE0005D879A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CA948351CEF2EE0005D879A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA9484E1CEF2EE0005D879A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA948591CEF2EE0005D879A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CA9482F1CEF2EE0005D879A = {
+			isa = PBXGroup;
+			children = (
+				7CA9483A1CEF2EE0005D879A /* idageTimerButton */,
+				7CA948541CEF2EE0005D879A /* idageTimerButtonTests */,
+				7CA9485F1CEF2EE0005D879A /* idageTimerButtonUITests */,
+				7CA948391CEF2EE0005D879A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CA948391CEF2EE0005D879A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CA948381CEF2EE0005D879A /* idageTimerButton.app */,
+				7CA948511CEF2EE0005D879A /* idageTimerButtonTests.xctest */,
+				7CA9485C1CEF2EE0005D879A /* idageTimerButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CA9483A1CEF2EE0005D879A /* idageTimerButton */ = {
+			isa = PBXGroup;
+			children = (
+				7CA9483E1CEF2EE0005D879A /* AppDelegate.h */,
+				7CA9483F1CEF2EE0005D879A /* AppDelegate.m */,
+				7CA948411CEF2EE0005D879A /* ViewController.h */,
+				7CA948421CEF2EE0005D879A /* ViewController.m */,
+				7CA948441CEF2EE0005D879A /* Main.storyboard */,
+				7CA948471CEF2EE0005D879A /* Assets.xcassets */,
+				7CA948491CEF2EE0005D879A /* LaunchScreen.storyboard */,
+				7CA9484C1CEF2EE0005D879A /* Info.plist */,
+				7CA9483B1CEF2EE0005D879A /* Supporting Files */,
+			);
+			path = idageTimerButton;
+			sourceTree = "<group>";
+		};
+		7CA9483B1CEF2EE0005D879A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CA9483C1CEF2EE0005D879A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CA948541CEF2EE0005D879A /* idageTimerButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CA948551CEF2EE0005D879A /* idageTimerButtonTests.m */,
+				7CA948571CEF2EE0005D879A /* Info.plist */,
+			);
+			path = idageTimerButtonTests;
+			sourceTree = "<group>";
+		};
+		7CA9485F1CEF2EE0005D879A /* idageTimerButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CA948601CEF2EE0005D879A /* idageTimerButtonUITests.m */,
+				7CA948621CEF2EE0005D879A /* Info.plist */,
+			);
+			path = idageTimerButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CA948371CEF2EE0005D879A /* idageTimerButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA948651CEF2EE0005D879A /* Build configuration list for PBXNativeTarget "idageTimerButton" */;
+			buildPhases = (
+				7CA948341CEF2EE0005D879A /* Sources */,
+				7CA948351CEF2EE0005D879A /* Frameworks */,
+				7CA948361CEF2EE0005D879A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = idageTimerButton;
+			productName = idageTimerButton;
+			productReference = 7CA948381CEF2EE0005D879A /* idageTimerButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CA948501CEF2EE0005D879A /* idageTimerButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA948681CEF2EE0005D879A /* Build configuration list for PBXNativeTarget "idageTimerButtonTests" */;
+			buildPhases = (
+				7CA9484D1CEF2EE0005D879A /* Sources */,
+				7CA9484E1CEF2EE0005D879A /* Frameworks */,
+				7CA9484F1CEF2EE0005D879A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CA948531CEF2EE0005D879A /* PBXTargetDependency */,
+			);
+			name = idageTimerButtonTests;
+			productName = idageTimerButtonTests;
+			productReference = 7CA948511CEF2EE0005D879A /* idageTimerButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CA9485B1CEF2EE0005D879A /* idageTimerButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA9486B1CEF2EE0005D879A /* Build configuration list for PBXNativeTarget "idageTimerButtonUITests" */;
+			buildPhases = (
+				7CA948581CEF2EE0005D879A /* Sources */,
+				7CA948591CEF2EE0005D879A /* Frameworks */,
+				7CA9485A1CEF2EE0005D879A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CA9485E1CEF2EE0005D879A /* PBXTargetDependency */,
+			);
+			name = idageTimerButtonUITests;
+			productName = idageTimerButtonUITests;
+			productReference = 7CA9485C1CEF2EE0005D879A /* idageTimerButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CA948301CEF2EE0005D879A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = idage;
+				TargetAttributes = {
+					7CA948371CEF2EE0005D879A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7CA948501CEF2EE0005D879A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7CA948371CEF2EE0005D879A;
+					};
+					7CA9485B1CEF2EE0005D879A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7CA948371CEF2EE0005D879A;
+					};
+				};
+			};
+			buildConfigurationList = 7CA948331CEF2EE0005D879A /* Build configuration list for PBXProject "idageTimerButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CA9482F1CEF2EE0005D879A;
+			productRefGroup = 7CA948391CEF2EE0005D879A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CA948371CEF2EE0005D879A /* idageTimerButton */,
+				7CA948501CEF2EE0005D879A /* idageTimerButtonTests */,
+				7CA9485B1CEF2EE0005D879A /* idageTimerButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CA948361CEF2EE0005D879A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA9484B1CEF2EE0005D879A /* LaunchScreen.storyboard in Resources */,
+				7CA948481CEF2EE0005D879A /* Assets.xcassets in Resources */,
+				7CA948461CEF2EE0005D879A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA9484F1CEF2EE0005D879A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA9485A1CEF2EE0005D879A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CA948341CEF2EE0005D879A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA948431CEF2EE0005D879A /* ViewController.m in Sources */,
+				7CA948401CEF2EE0005D879A /* AppDelegate.m in Sources */,
+				7CA9483D1CEF2EE0005D879A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA9484D1CEF2EE0005D879A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA948561CEF2EE0005D879A /* idageTimerButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA948581CEF2EE0005D879A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA948611CEF2EE0005D879A /* idageTimerButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CA948531CEF2EE0005D879A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA948371CEF2EE0005D879A /* idageTimerButton */;
+			targetProxy = 7CA948521CEF2EE0005D879A /* PBXContainerItemProxy */;
+		};
+		7CA9485E1CEF2EE0005D879A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA948371CEF2EE0005D879A /* idageTimerButton */;
+			targetProxy = 7CA9485D1CEF2EE0005D879A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CA948441CEF2EE0005D879A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CA948451CEF2EE0005D879A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CA948491CEF2EE0005D879A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CA9484A1CEF2EE0005D879A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CA948631CEF2EE0005D879A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CA948641CEF2EE0005D879A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CA948661CEF2EE0005D879A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = idageTimerButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.irabbit.idageTimerButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CA948671CEF2EE0005D879A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = idageTimerButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.irabbit.idageTimerButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CA948691CEF2EE0005D879A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = idageTimerButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.irabbit.idageTimerButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/idageTimerButton.app/idageTimerButton";
+			};
+			name = Debug;
+		};
+		7CA9486A1CEF2EE0005D879A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = idageTimerButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.irabbit.idageTimerButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/idageTimerButton.app/idageTimerButton";
+			};
+			name = Release;
+		};
+		7CA9486C1CEF2EE0005D879A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = idageTimerButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.irabbit.idageTimerButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = idageTimerButton;
+			};
+			name = Debug;
+		};
+		7CA9486D1CEF2EE0005D879A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = idageTimerButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.irabbit.idageTimerButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = idageTimerButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CA948331CEF2EE0005D879A /* Build configuration list for PBXProject "idageTimerButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA948631CEF2EE0005D879A /* Debug */,
+				7CA948641CEF2EE0005D879A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA948651CEF2EE0005D879A /* Build configuration list for PBXNativeTarget "idageTimerButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA948661CEF2EE0005D879A /* Debug */,
+				7CA948671CEF2EE0005D879A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CA948681CEF2EE0005D879A /* Build configuration list for PBXNativeTarget "idageTimerButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA948691CEF2EE0005D879A /* Debug */,
+				7CA9486A1CEF2EE0005D879A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CA9486B1CEF2EE0005D879A /* Build configuration list for PBXNativeTarget "idageTimerButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA9486C1CEF2EE0005D879A /* Debug */,
+				7CA9486D1CEF2EE0005D879A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CA948301CEF2EE0005D879A /* Project object */;
+}
